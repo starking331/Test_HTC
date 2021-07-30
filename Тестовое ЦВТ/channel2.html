@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="Assets/CSS/Normalize.css">
+	<link rel="stylesheet" href="Assets/CSS/Style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	<title>Видеосервис</title>
+	<link rel="shortcut icon" href="Assets/Images/sign.svg">
+</head>
+<body>
+	<header class="header">
+		<div class="container header__container">
+			<a class="logo">
+				<img src="Assets/Images/logo.svg" alt="Видеосервис Logo">
+			</a>
+
+			<div class="search">
+				<form action="" method="get">
+  					<input name="s" placeholder="Поиск..." type="search">
+  					<button type="submit">Найти</button>
+				</form>
+		</div>
+		<div class="site__login">
+			<p id="out"></p>
+			<a href="#" class="button__login open-popup">Войти</a>
+		</div>
+	</header>
+
+		    <div class="popup-bg">
+        <div class="popup">
+            <img class="close-popup" src="Assets/Images/close.svg" alt="">
+            <form action="index_logined.html" id="form">
+            	<h3>Вход</h3>
+                <input class="logining" type="text" name="popup-form" id="login" placeholder="Логин">
+                <input class="logining" type="password" name="popup-form" placeholder="Пароль">                 
+                <input value="Войти" type="submit" onclick="out()">
+            </form>
+        </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+	<script src="main.js"></script>
+
+	<div class="container">
+	<div class="menu">
+		<nav class="nav">
+			<a class="nav__link movies__channel" href="index.html">Фильмы</a>
+			<a class="nav__link channel__2" href="channel.html">Телеканалы</a>
+		</nav>
+	</div>
+</div>
+<div class="channel__content">
+	<div class="channel__item">
+		<img class="first" src="Assets/Images/First.svg" alt="">
+		<h3>Первый канал</h3>
+		  <table border="0">
+   <tr>
+    <th>13:00</th>
+    <th class="cont">Новости (с субтитрами)</th>
+   </tr>
+   <tr>
+    <td>14:00</td>
+    <td class="cont">Давай поженимся</td>
+  </tr>
+     <tr>
+    <td>15:00</td>
+    <td class="cont">Другие новости</td>
+  </tr>
+ </table>
+	</div>
+	<div class="channel__item">
+		<img class="second" src="Assets/Images/2x2.svg" alt="">
+		<h3>2x2</h3>
+		  <table border="0">
+   <tr>
+    <th>13:00</th>
+    <th class="cont">МУЛЬТ ТВ. Сезон 4, 7 серия</th>
+   </tr>
+   <tr>
+    <td>14:00</td>
+    <td class="cont">ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</td>
+  </tr>
+     <tr>
+    <td>15:00</td>
+    <td class="cont">БУРДАШЕВ. Сезон 1, 20 серия</td>
+  </tr>
+ </table>
+	</div>
+	<div class="channel__item">
+		<img class="third" src="Assets/Images/Fill.svg" alt="">
+		<h3>РБК</h3>
+		  <table border="0">
+   <tr>
+    <th>13:00</th>
+    <th class="cont">МУЛЬТ ТВ. Сезон 4, 7 серия</th>
+   </tr>
+   <tr>
+    <td>14:00</td>
+    <td class="cont">ПОДОЗРИТЕЛЬНАЯ СОВА. Сезон 7, 7 серия</td>
+  </tr>
+     <tr>
+    <td>15:00</td>
+    <td class="cont">БУРДАШЕВ. Сезон 1, 20 серия</td>
+  </tr>
+ </table>
+	</div>
+	<div class="channel__item">
+			<img class="fourth" src="Assets/Images/Amedia.svg" alt="">
+		<h3>AMEDIA PREMIUM</h3>
+		  <table border="0">
+   <tr>
+    <th>13:00</th>
+    <th class="cont">Клиент всегда мёртв</th>
+   </tr>
+   <tr>
+    <td>14:00</td>
+    <td class="cont">Голодные игры: Сойка-пересмешница. Часть I</td>
+  </tr>
+     <tr>
+    <td>15:00</td>
+    <td class="cont">Секс в большом городе</td>
+  </tr>
+ </table>
+	</div>
+</div>
+<footer class="footer">
+	<div class="container">
+		<div class="footer__logo">
+			<img src="Assets/Images/Vector.svg" alt="Логотип ЦВТ">
+		</div>
+		<div class="footer__text">
+			426057, Россия, Удмуртская Республика, г. Ижевск, ул. Карла Маркса, 246 (ДК «Металлург»)
+			<br>
+			+7 (3412) 93-88-61, 43-29-29
+			<br>
+			<br>
+			<a href="https://htc-cs.ru/" class="footer__link">htc-cs.ru</a>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
